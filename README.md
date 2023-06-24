@@ -47,6 +47,8 @@ yum install git -y
 
 Add build step : send file or execute commands over SSH → transfer files → Source files : **/*.war → remove prefix : target → remove directory : / → exec command : add below given command
 
+![image](https://github.com/ajit40/project-3-ssh-docker-webapp/assets/120071904/7a613164-b672-45a2-b9c0-b61020e12f17)
+
 # exec command
 docker stop qspider;
 docker rm -f qspider;

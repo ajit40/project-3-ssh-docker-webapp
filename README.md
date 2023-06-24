@@ -39,12 +39,12 @@ yum install git -y
 
 **Step 1 :** su - dockeradmin → vi Dockerfile → paste these commands
 
-### vi Dockerfile
-# Pull base image
+### **vi Dockerfile**
+#** Pull base image**
 From tomcat:8-jre8
-# Maintainer
+# **Maintainer**
 MAINTAINER "sak"
-# copy war file on to container
+# **copy war file on to container**
 COPY ./project-3-ssh-docker-webapp.war /usr/local/tomcat/webapps
 
 :wq
